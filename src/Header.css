@@ -1,0 +1,38 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.HeaderLeft{
+
+    flex:0.5;
+    min-width: 70px;
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding:6px;
+    height: 30px;
+
+}
+
+.HeaderLeft > input{
+    border: none;
+    outline: none;
+    width:100%;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'sans-serif';
+}
+
+.HeaderRight {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderRight > h4{
+    margin-left: 10px;
+}

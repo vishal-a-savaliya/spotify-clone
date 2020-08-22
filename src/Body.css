@@ -1,0 +1,58 @@
+.Body{
+    /* border: 1px solid red; */
+    flex:0.83;
+    padding: 30px;
+    color: white;
+    /* background-color: rgb(91,87,115); */
+    height:100vh;
+    background: linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
+    overflow-y: overlay;
+
+}
+
+.Body::-webkit-scrollbar {
+    display: none;
+}
+
+.BodyInfo{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+} 
+.BodyInfoText{
+    flex:1;
+}
+
+.BodyInfo > img{
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0,0,0,0.5);
+}
+
+.BodyInfoText > h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.BodyInfoText > p{
+    font-size: 14px;
+}
+.BodyIcons{
+    display: flex;
+    align-items: center;
+}
+.BodyIcons> .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+.BodySuffle{
+    color: #1ed15e;
+    font-size: 70px !important;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: white; */
+}
+.BodySuffle:hover{
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+

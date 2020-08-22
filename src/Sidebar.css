@@ -1,0 +1,27 @@
+.Sidebar{
+    /* border: 1px solid black; */
+    height:100vh;
+    flex:0.17;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    /* min-width: 230px; */
+    background-color: #040404;
+}
+.SidebarLogo{
+    margin:10px 0px 0px 0px;
+    height: 63px;
+    padding:8px 0px 10px ;
+}
+.SidebarTitle{
+    margin-left:10px ;
+    padding:5px;
+    font-size: 15px;
+    color:gray;
+    height:40px;
+}
+.Sidebar > hr{
+    border:1px solid #282828;
+    width:90%;
+    margin:10px auto;
+}
